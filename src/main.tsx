@@ -10,8 +10,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <KindeProvider
 		clientId="f04d4e722d9e44f5be46a743fe6af860"
 		domain="https://rudra.kinde.com"
-		redirectUri="http://localhost:5173"
-		logoutUri="http://localhost:5173"
+		redirectUri="https://rudras-todo-app.vercel.app"
+		logoutUri="https://rudras-todo-app.vercel.app"
     >
       <TodosContextProvider>
         <App />

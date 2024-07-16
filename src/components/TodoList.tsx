@@ -7,12 +7,6 @@ export default function TodoList(){
 
   return (
     <ul className="col-[1/2] row-[2/3] bg-[#fff] [scrollbar-width:thin] relative">
-      {/* {isLoading && (
-        <li className="h-full flex justify-center items-center font-semibold">
-          Loading todos...
-        </li>
-      )} */}
-
       {totalCount===0 ? (
         <li className="h-full font-semibold flex justify-center items-center">
           Start by adding a todo
