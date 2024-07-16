@@ -1,4 +1,6 @@
-Todo App--
+Todo App-- Efficient Task Management
+
+Tech Stack -- React + TypeScript + TailwindCSS + KindeAuth
 
 Kinde Authentication: Secure user sign-up and login using Kinde for seamless access and personalized experience.
 
