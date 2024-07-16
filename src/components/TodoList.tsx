@@ -3,15 +3,15 @@ import DeleteButton from "./DeleteButton";
 
 export default function TodoList(){
 
-  const {totalCount,isLoading,toggleTodo,todos}=useTodosContext();
+  const {totalCount,toggleTodo,todos}=useTodosContext();
 
   return (
     <ul className="col-[1/2] row-[2/3] bg-[#fff] [scrollbar-width:thin] relative">
-      {isLoading && (
+      {/* {isLoading && (
         <li className="h-full flex justify-center items-center font-semibold">
           Loading todos...
         </li>
-      )}
+      )} */}
 
       {totalCount===0 ? (
         <li className="h-full font-semibold flex justify-center items-center">

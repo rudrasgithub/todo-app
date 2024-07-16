@@ -1,7 +1,7 @@
 type ButtonTypes={
-  buttonType?:string;
+  buttonType?:"primary" | "secondary";
   children:string;
-  onClick:() => Promise<void>;
+  onClick?:() => Promise<void>;
 }
 
 export default function Button({buttonType,children,onClick}:ButtonTypes) {
