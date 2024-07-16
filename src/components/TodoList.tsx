@@ -6,7 +6,7 @@ export default function TodoList(){
   const {totalCount,toggleTodo,todos}=useTodosContext();
 
   return (
-    <ul className="col-[1/2] row-[2/3] bg-[#fff] [scrollbar-width:thin] relative">
+    <ul className="col-[1/2] row-[2/3] bg-[#fff] [scrollbar-width:thin]">
       {totalCount===0 ? (
         <li className="h-full font-semibold flex justify-center items-center">
           Start by adding a todo
